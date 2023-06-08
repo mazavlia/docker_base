@@ -1,6 +1,0 @@
-# Создаем образ
-docker build -t docker_base:latest .
-
-# запускаем (поднимаем) контейнер на основе созданного образа
-docker run -d -p 5439:5432 --name docker_base_container docker_base:latest
-
